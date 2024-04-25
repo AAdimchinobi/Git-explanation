@@ -1,0 +1,89 @@
+.nick {
+  background-image: url(https://cdn.dribbble.com/users/4700568/screenshots/16256473/media/cf315eb7b1212c3e3e9a2087fb5b3bb0.jpg?compress=1&resize=768x576&vertical=top);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5em;
+  align-content: cennter;
+  text-align: center;
+  border-radius: 10px;
+}
+.menu--section {
+  margin: 5rem auto;
+  max-width: 1100px;
+  padding-top: 5rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  grid-gap: 20px; /* Gap between columns */
+  border: 2px solid #000000; /* Black border with a thickness of 2 pixels */
+  padding: 10px; /* Add some padding around the image */
+}
+
+/* CSS for image */
+.image {
+  max-width: 100%;
+  height: auto;
+}
+.contact-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f9721;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icon {
+  margin-right: 10px;
+  color: #480f77;
+  font-size: 20px;
+}
+
+.social-icon:hover {
+  color: #00ff00;
+}
